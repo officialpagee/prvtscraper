@@ -135,7 +135,7 @@ HTML_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Message History Scraper</title>
+    <title>Telegram  History Scraper</title>
     <style>
         * {
             margin: 0;
@@ -516,4 +516,5 @@ if __name__ == '__main__':
         print("\n👋 Shutting down gracefully...")
     except Exception as e:
         print(f"❌ Error starting server: {e}")
+
 
