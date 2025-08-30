@@ -321,11 +321,8 @@ HTML_TEMPLATE = '''
 <body>
     <div class="container">
         <h1>Telegram Message Scraper</h1>
-        <p class="subtitle">Extract usernames from message history</p>
+        <p class="subtitle">Extract usernames from private groups</p>
         
-        <div class="info-box">
-            <strong>📝 How it works:</strong> This tool scans through recent messages in a Telegram group/channel and extracts usernames from message senders. It shows the most active users first based on message count.
-        </div>
         
         <form id="scrapeForm">
             <div class="form-group">
@@ -519,3 +516,4 @@ if __name__ == '__main__':
         print("\n👋 Shutting down gracefully...")
     except Exception as e:
         print(f"❌ Error starting server: {e}")
+
